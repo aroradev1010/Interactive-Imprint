@@ -5,17 +5,8 @@ const workSlider = {
       videos: [
         {
           title: "title",
-          path: "/project1.mp4",
-          link: "https://thunderous-pegasus-3b214e.netlify.app/",
-        },
-      ],
-    },
-    {
-      videos: [
-        {
-          title: "title",
           path: "/project2.mp4",
-          link: "https://65b1a587b273e30922de7c25--stellar-sunflower-a5ba44.netlify.app/",
+          link: "https://infiniteideashub.onrender.com/",
         },
       ],
     },
@@ -24,7 +15,25 @@ const workSlider = {
         {
           title: "title",
           path: "/project3.mp4",
+          link: "https://65b1a587b273e30922de7c25--stellar-sunflower-a5ba44.netlify.app/",
+        },
+      ],
+    },
+    {
+      videos: [
+        {
+          title: "title",
+          path: "/project4.mp4",
           link: "https://shape-shifter-portfolio.vercel.app/",
+        },
+      ],
+    },
+    {
+      videos: [
+        {
+          title: "title",
+          path: "/project1.mp4",
+          link: "https://thunderous-pegasus-3b214e.netlify.app/",
         },
       ],
     },
