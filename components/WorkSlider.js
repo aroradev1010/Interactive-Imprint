@@ -7,38 +7,30 @@
 import { motion } from "framer-motion";
 const workSlider = {
   slides: [
+    
     {
-      images: [
+      videos: [
         {
           title: "title",
-          path: "/thumb1.jpg",
-          link: "thunderous-pegasus-3b214e.netlify.app",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/thumb2.jpg",
+          path: "/project1.mp4",
           link: "",
         },
       ],
     },
     {
-      images: [
+      videos: [
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/project2.mp4",
           link: "",
         },
       ],
     },
     {
-      images: [
+      videos: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/project3.mp4",
           link: "",
         },
       ],
@@ -84,7 +76,7 @@ const WorkSlider = () => {
         return (
           <SwiperSlide key={index} className="">
             <div className="grid grid-cols-1 grid-rows-1 gap-4 cursor-pointer h-full px-10 ">
-              {slide.images.map((image, index) => {
+              {slide.videos.map((video, index) => {
                 return (
                   <motion.div
                     className="relative rounded-lg overflow-hidden flex items-center justify-center group bg-yellow "
@@ -94,11 +86,14 @@ const WorkSlider = () => {
                       className="flex items-center justify-center relative overflow-hidden group "
                       key={index}
                     >
-                      {/* image */}
-                      <a href={image.link}></a>
+                      {/* video */}
+                      <a href={video.link}></a>
 
-                      <Image
-                        src={image.path}
+                      <video
+                        src={video.path}
+                        loop
+                        autoPlay
+                        muted
                         width={750}
                         height={400}
                         alt=""

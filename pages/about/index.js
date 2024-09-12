@@ -10,6 +10,7 @@ import {
   SiMongodb,
   SiMysql,
   SiNetlify,
+  SiPrismic,
   SiRedux,
   SiRender,
   SiTailwindcss,
@@ -40,6 +41,7 @@ const aboutData = [
         title: "tech stack",
         icons: [
           <FaHtml5 />,
+          <SiPrismic />,
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
@@ -167,7 +169,7 @@ const About = () => {
                       const radius = 220; // Adjust this radius for the circle size
 
                       // Calculate angle for each icon (in radians)
-                      const angle = (iconIndex / totalIcons) * (4 * Math.PI);
+                      const angle = (iconIndex / totalIcons) * (2 * Math.PI);
 
                       // Calculate x and y positions based on angle and radius
                       const x = Math.cos(angle) * radius;
