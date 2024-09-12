@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-import React, { useState } from "react";
+import React from "react";
 
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
