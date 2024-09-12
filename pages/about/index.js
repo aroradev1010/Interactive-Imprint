@@ -42,7 +42,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-16 px-2 xl:px-0 xs:text-[13px] sm:text-[15px] lg:text-[17pxheader] mt-5 z-20"
           >
-            Embarking on a journey into the digital realm just a year ago, I've
+            Embarking on a journey into the digital realm just a year ago, I&apos;ve
             rapidly evolved from a novice coder to an aspiring freelancer. Each
             line of code I write is a testament to my dedication and passion for
             web development.

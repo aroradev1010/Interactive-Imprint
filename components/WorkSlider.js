@@ -69,6 +69,7 @@ const WorkSlider = () => {
               {slide.videos.map((video, index) => {
                 return (
                   <motion.div
+                    key={index}
                     className="relative rounded-lg overflow-hidden flex items-center justify-center group bg-yellow "
                     whileHover={{ scale: 1.1, transition: { duration: 0.7 } }}
                   >
