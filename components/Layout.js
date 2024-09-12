@@ -1,6 +1,6 @@
 import { Sora } from "@next/font/google";
 import Nav from "../components/Nav.js";
-import Header from "../components/header";
+import Header from "../components/Header";
 import TopLeftImg from "../components/TopLeftImg";
 
 //font settings
