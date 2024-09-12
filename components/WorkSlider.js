@@ -24,7 +24,7 @@ const workSlider = {
         {
           title: "title",
           path: "/project3.mp4",
-          link: "https://devarora.vercel.app/",
+          link: "https://shape-shifter-portfolio.vercel.app/",
         },
       ],
     },
