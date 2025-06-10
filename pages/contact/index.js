@@ -58,7 +58,7 @@ const Contact = () => {
       setLoading(false);
       console.error(error);
       showAlert({
-        text: "I didn&apos;t receive your message 😢",
+        text: "I didn't receive your message 😢",
         type: "danger",
       });
     }
@@ -141,7 +141,7 @@ const Contact = () => {
                 disabled={loading}
               >
                 <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                  {loading ? "Sending..." : "Let&apos;s Talk"}
+                  {loading ? "Sending..." : "Let's Talk"}
                 </span>
                 <BsArrowRight className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]" />
               </button>
